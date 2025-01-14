@@ -1,0 +1,5 @@
+ERROR_CREATE_USER: Error creating user jdoe: Command '['useradd', '-m', '-c', 'John Doe', '-g', 'dev', '-s', '/bin/bash', 'jdoe']' returned non-zero exit status 1.
+CREATE_USER: Username=sSmith, FullName=Sam Smith, Group=dev, Shell=/bin/bash
+CREATE_USER: Username=jDoe, FullName=John Doe, Group=dev, Shell=/bin/bash
+DELETE_USER: Username=sSmith
+DELETE_USER: Username=jDoe
